@@ -101,12 +101,12 @@
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-9 text-center mt-5">
-				<h1 class="heading" data-aos="fade-up">Board</h1> <!-- 수정된 제목 -->
+				<h1 class="heading" data-aos="fade-up">Community</h1> <!-- 수정된 제목 -->
 
 				<nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
 					<ol class="breadcrumb text-center justify-content-center">
 						<li class="breadcrumb-item "><a href="index.html">Home</a></li>
-						<li class="breadcrumb-item active text-white-50" aria-current="page">Board</li> <!-- 수정된 항목 -->
+						<li class="breadcrumb-item active text-white-50" aria-current="page">Community</li> <!-- 수정된 항목 -->
 					</ol>
 				</nav>
 			</div>
@@ -122,34 +122,91 @@
 		<input type="submit" value="Post">
 	</form>
 </div>
-
 <div class="site-footer">
 	<div class="container">
+
 		<div class="row">
 			<div class="col-lg-4">
-				<!-- First column of the footer -->
-			</div>
+				<div class="widget">
+					<h3>Contact</h3>
+					<address>서울시 노원구 월계동 123-45</address> <!-- 기존 주소에서 노원구 주소로 변경 -->
+					<ul class="list-unstyled links"> <!-- 연락처와 연락 이메일 주소 변경 -->
+						<li><a href="tel://01012345678">010-1234-5678</a></li>
+						<li><a href="tel://01098765432">010-9876-5432</a></li>
+						<li><a href="mailto:202012055@induk.ac.kr">202012055@induk.ac.kr</a></li>
+						<li><a href="mailto:202212018@induk.ac.kr">202212018@induk.ac.kr</a></li>
+						<li><a href="mailto:202226024@induk.ac.kr">202226024@induk.ac.kr</a></li>
+						<li><a href="mailto:202312004@induk.ac.kr">202312004@induk.ac.kr</a></li>
+
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-4 -->
 			<div class="col-lg-4">
-				<!-- Second column of the footer -->
-			</div>
+				<div class="widget">
+					<h3>Sources</h3>
+					<ul class="list-unstyled float-start links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Reservation</a></li>
+						<li><a href="#">Community</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul>
+					<ul class="list-unstyled float-start links">
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-4 -->
 			<div class="col-lg-4">
-				<!-- Third column of the footer -->
+				<div class="widget">
+					<h3>Links</h3>
+					<ul class="list-unstyled links">
+						<li><a href="#">Our Vision</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+
+					<ul class="list-unstyled social">
+						<li><a href="#"><span class="icon-instagram"></span></a></li>
+						<li><a href="#"><span class="icon-twitter"></span></a></li>
+						<li><a href="#"><span class="icon-facebook"></span></a></li>
+						<li><a href="#"><span class="icon-linkedin"></span></a></li>
+						<li><a href="#"><span class="icon-pinterest"></span></a></li>
+						<li><a href="#"><span class="icon-dribbble"></span></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
+
 		<div class="row mt-5">
 			<div class="col-12 text-center">
-				<p>Copyright ©<script>document.write(new Date().getFullYear());</script>.
-					All Rights Reserved. —  <a href="https://LLS.co">LLS.co</a></p>
+
+				<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed by LLS <a href="https://LLS.co">LLS.co</a>
+				</p>
+
 			</div>
 		</div>
 	</div>
 </div>
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/tiny-slider.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/navbar.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/custom.js"></script>
+
+<!-- Preloader -->
+<div id="overlayer"></div>
+<div class="loader">
+	<div class="spinner-border" role="status">
+		<span class="visually-hidden">Loading...</span>
+	</div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap/js/tiny-slider.js"></script>
+<script src="bootstrap/js/aos.js"></script>
+<script src="bootstrap/js/navbar.js"></script>
+<script src="bootstrap/js/counter.js"></script>
+<script src="bootstrap/js/custom.js"></script>
 </body>
 </html>
